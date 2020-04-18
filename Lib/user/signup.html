@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <title>Library Login</title>  
+    <link rel = "stylesheet" type = "text/css" href = "Lib1.css">   
+<style>
+    .container
+    {
+        width:50%;
+        border-radius: 10px;
+    }
+    
+ </style>   
+</head>  
+
+<body>  
+    <div class = "container p-3 my-3 bg-dark text-white">  
+        <h1 class="navbar-brand font-weight-bold">Library <i class="fas fa-book"></i> </h1>  
+        <form class="was-validated" name="f1" action = "signup.php" method = "POST">  
+            <div class="form-group">  
+                <label> UserName: </label>  
+                <input class="form-control" type = "text" id ="user" name  = "use" required/>  
+            </div>  
+            <div class="form-group">  
+                <label> USN: </label>  
+                <input class="form-control" type = "text" id ="user" name  = "USN" required/>  
+            </div>  
+            <div class="form-group">  
+                <label> Date of Birth: </label>  
+                <input class="form-control" type = "text" placeholder="YYYY-MM-DD" id ="user" name  = "DOB" required/>  
+            </div>  
+            <div class="form-group">  
+                <label> Department: </label>  
+                <input class="form-control" type = "text" id ="user" name  = "Dept" required/>  
+            </div>  
+            
+            <div class="form-group">  
+                <label> Password:  </label>  
+                <input type = "password" class="form-control" id ="pass" name  = "pas" required/>  
+            </div>  
+            <div class="form-group text-right">     
+                <input class="btn btn-secondary btn-md" type =  "submit" id = "btn" value = "Signup" />  
+            </div>  
+        </form>  
+    </div>  
+  
+</body>     
+</html>  
